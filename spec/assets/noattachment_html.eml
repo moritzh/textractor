@@ -1,0 +1,29 @@
+Return-Path: <m.haarmann@gmail.com>
+Received: from mac-10ddb1a53ec3.fritz.box (pD955509B.dip0.t-ipconnect.de. [217.85.80.155])
+        by mx.google.com with ESMTPSA id v8sm1772285laj.23.2014.10.24.04.29.50
+        for <m.haarmann@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 24 Oct 2014 04:29:50 -0700 (PDT)
+From: Moritz Haarmann <m.haarmann@gmail.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_CAEFE104-3A52-461D-A923-30D14D048C63"
+Subject: Test without attachment
+Message-Id: <9F60A15D-6179-4800-950D-EB9770C9BB4E@gmail.com>
+Date: Fri, 24 Oct 2014 13:29:48 +0200
+To: Moritz Haarmann <m.haarmann@gmail.com>
+Mime-Version: 1.0 (Mac OS X Mail 8.0 \(1973.6\))
+X-Mailer: Apple Mail (2.1973.6)
+
+
+--Apple-Mail=_CAEFE104-3A52-461D-A923-30D14D048C63
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+and some html content.
+--Apple-Mail=_CAEFE104-3A52-461D-A923-30D14D048C63
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv="Content-Type" content="text/html charset=us-ascii"></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" class="">and some html <b class="">content</b>.</body></html>
+--Apple-Mail=_CAEFE104-3A52-461D-A923-30D14D048C63--
