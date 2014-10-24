@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Textractor extracts text from a number of file formats like doc, pages, numbers, eml files and pdfs – as well as markdown and html."
   s.authors     = ["Moritz Haarmann"]
   s.email       = 'post@moritzhaarmann.de'
-  s.files       = ["lib/**/*"]
+  s.files        = Dir.glob("{lib}/**/*") + %w(LICENSE Readme.md)
   s.homepage    =
     'http://github.com/moritzh/textractor'
   s.license       = 'BSD'
@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'mime-types'
   
   s.add_development_dependency "rspec"
+  s.add_development_dependency "simplecov"
   
 end
