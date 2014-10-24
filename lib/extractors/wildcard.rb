@@ -7,6 +7,7 @@ module Textractor
     
     def extract(data)
       contents =  data
+    
       text = Yomu.read :text, contents
       
       text

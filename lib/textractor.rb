@@ -20,6 +20,9 @@ module Textractor
       return nil unless type
       
       data = open(filename).read
+      
+      
+      
       extract_from_data(data, type)
     end
     
@@ -27,11 +30,11 @@ module Textractor
       type =  MIME::Type.new(mimetype.to_s)
       
       extractor = self.extractor_for_type(mimetype)
-      
       return nil unless extractor 
       instance =extractor.new()
+      text  =instance.extract(data)
       
-      return instance.extract(data)
+      return text
     end
   
     private
@@ -74,4 +77,8 @@ module Textractor
   end
 end
 
-Dir.glob("lib/extractors/*").each { |f| require_relative "../#{f}" }
+# data exchange specific (to be extracted and used on a per provider basis)
+require 'extractors/md'
+require 'extractors/html'
+require 'extractors/eml'
+require 'extractors/wildcard'
